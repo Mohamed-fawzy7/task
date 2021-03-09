@@ -1,0 +1,42 @@
+<div class="container programs-app">
+  <div class="row">
+
+
+    <div class="search-bar d-flex justify-content-center w-100">
+      <input type="text" [(ngModel)]="searchedLearnValue" class="first-input" placeholder="What do you want to learn?">
+      <div class="input-wrapper">
+        <input type="text" [(ngModel)]="searchedSchoolValue" (blur)="closeSchoolsListSelect('blur')" (input)="handleSchoolsSelectList($event)" class="second-input" placeholder="Write or choose city">
+        <div class="select">
+          <ul *ngIf="showSchoolSelectList" (mousedown)="handleSchoolClick($event)">
+            <li *ngFor="let school of filteredSchools">{{school}}</li>
+          </ul>
+        </div>
+        <span class="chev-down">
+          <fa-icon *ngIf="showSchoolSelectList" (click)="toggleSchoolsListSelect()" class="chev-down-icon" [icon]="faChevronUp"></fa-icon>
+          <fa-icon *ngIf="!showSchoolSelectList" (click)="toggleSchoolsListSelect()" class="chev-down-icon" [icon]="faChevronDown"></fa-icon>
+        </span>
+      </div>
+      <button (click)="handleSearch()">Search</button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="side-bar" #fixedSideBar>
+        <app-filter-search-input (sendSelectedValues)="setSelectedCities($event)" [name]="'City'" [values]="cities"></app-filter-search-input>
+        <app-filter-checkboxes  (sendSelectedValues)="setProgramType($event)" [name]="'Program'" [values]="programs"></app-filter-checkboxes>
+        <app-filter-search-input (sendSelectedValues)="setSelectedFields($event)" [name]="'Field'" [values]="fields"></app-filter-search-input>
+        <app-filter-search-input (sendSelectedValues)="setSelectedSchools($event)" [name]="'School'" [values]="schools"></app-filter-search-input>
+        <app-filter-checkboxes (sendSelectedValues)="setLanguage($event)" [name]="'Language'" [values]="languages"></app-filter-checkboxes>
+        <app-filter-checkboxes (sendSelectedValues)="setPrice($event)" [name]="'Sort'" [values]="prices"></app-filter-checkboxes>
+        <button class="mt-5 btn btn-success" (click)="handleFilter()">Filter</button>
+      </div>
+    </div>
+    <div class="col-lg-8">
+      <div class="programs-list">
+        <app-programs-list [programs]="visiblePrograms"></app-programs-list>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,21 @@
+<div class="filter-head mb-3">
+  {{name}}
+</div>
+<div (click)="toggleSelect()" class="filter-input d-flex justify-content-between">
+  <p>Choose one {{name}} or more</p>
+  <fa-icon *ngIf="!selectOpened" [icon]="faChevronDown"></fa-icon>
+  <fa-icon *ngIf="selectOpened" [icon]="faChevronUp"></fa-icon>
+</div>
+<ul *ngIf="selectOpened" (click)="addValue($event)" class="values-ul">
+  <li *ngFor="let value of values">{{value}}</li>
+</ul>
+
+<ul class="tag-values mt-3">
+  <li class="tag-value" *ngFor="let value of selectedValues">
+    <span>{{value}}</span>
+    <span class="remove-value" (click)="removeValue(value)" > <img src="../../assets/Images/Icon material-close.svg"> </span>
+  </li>
+</ul>
+
+
+

@@ -1,0 +1,10 @@
+<div class="programs-list" *ngIf="programs.length">
+
+  <ng-container>
+    <ng-container *ngFor="let program of programs">
+      <app-single-program [program]="program"></app-single-program>
+    </ng-container>
+  </ng-container>
+</div>
+
+<h1 *ngIf="!programs.length" class="text-center my-5">No Programs Found</h1>
