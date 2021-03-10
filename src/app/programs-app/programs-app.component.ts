@@ -8,6 +8,12 @@ import data from '../../data/progs';
   styleUrls: ['./programs-app.component.scss']
 })
 export class ProgramsAppComponent implements OnInit {
+  @ViewChild('fixedSideBar') fixedSideBar;
+  @ViewChild('progrmsList') progrmsList;
+
+  ngAfterViewInit(): void {
+    this.progrmsList.nativeElement.style.height = this.fixedSideBar.nativeElement.offsetHeight + 'px'
+  }
 
   faChevronDown = faChevronDown;
   faChevronUp = faChevronUp;

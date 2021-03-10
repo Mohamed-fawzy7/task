@@ -3,9 +3,9 @@
 </div>
 <div class="checkboxes">
   <ng-container *ngFor="let radio of values">
-    <div class="d-flex align-items-center">
+    <div class="d-flex program-checkbox align-items-center">
       <input (change)="checkedValue = radio; sendValue()" type="radio" [attr.name]="name" [attr.id]="radio">
-      <label class="ml-2 mb-0" [attr.for]="radio">{{radio}}</label>
+      <label class="ml-2 ml-0 mb-0" [attr.for]="radio">{{radio}}</label>
     </div>
   </ng-container>
 

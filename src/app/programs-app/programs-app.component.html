@@ -1,3 +1,4 @@
+<app-navbar></app-navbar>
 <div class="container programs-app">
   <div class="row">
 
@@ -29,14 +30,16 @@
         <app-filter-search-input (sendSelectedValues)="setSelectedSchools($event)" [name]="'School'" [values]="schools"></app-filter-search-input>
         <app-filter-checkboxes (sendSelectedValues)="setLanguage($event)" [name]="'Language'" [values]="languages"></app-filter-checkboxes>
         <app-filter-checkboxes (sendSelectedValues)="setPrice($event)" [name]="'Sort'" [values]="prices"></app-filter-checkboxes>
-        <button class="mt-5 btn btn-success" (click)="handleFilter()">Filter</button>
+        <button class="mt-4 filter-button" (click)="handleFilter()">Filter</button>
       </div>
     </div>
     <div class="col-lg-8">
-      <div class="programs-list">
+      <div class="programs-list" #progrmsList>
         <app-programs-list [programs]="visiblePrograms"></app-programs-list>
       </div>
     </div>
   </div>
 </div>
+
+<app-footer></app-footer>
 

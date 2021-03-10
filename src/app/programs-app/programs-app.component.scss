@@ -1,12 +1,19 @@
 .programs-app {
   .search-bar {
     margin-bottom: 48px;
+    margin-top: 100px;
+    @media (max-width: 767px){
+      flex-direction: column;
+    }
     input {
       height: 65px;
       width: 353px;
       box-shadow: 0 0 25px #00000029;
       border: none;
       padding-left: 25px;
+      @media(max-width: 767px){
+        width: 100%;
+      }
     }
     input::placeholder {
       font: normal normal normal 16px/19px Roboto;
@@ -16,6 +23,10 @@
     }
     .first-input {
       border-right: 1px solid #283c8c;
+      @media (max-width: 575px){
+        border-right: none;
+        border-bottom: 1px solid #283c8c;
+      }
     }
     .second-input {
       box-shadow: 10px 0 25px #00000029;
@@ -31,6 +42,11 @@
       width: 130px;
       border: none;
       color: #fff;
+      @media(max-width: 575px){
+        width: 100%;
+        height: 50px;
+        border-radius: 0 0 5px 5px;
+      }
     }
     .input-wrapper {
       position: relative;
@@ -81,5 +97,24 @@
     padding: 24px;
     box-shadow: 0 0 25px #00000029;
     border-radius: 10px;
+    margin-bottom: 40px;
+    .filter-button{
+      border-radius: 5px;
+      box-shadow: 0px 1px 10px #1C85C833;
+      background: #1C85C8;
+      color: #FFF;
+      padding: 7.5px 32px;
+      outline: none;
+      border: none;
+      letter-spacing: 0.32px;
+    }
+  }
+  .programs-list{
+    overflow-y: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px #00000029;
+    &::-webkit-scrollbar {
+      width: 0
+    }
   }
 }

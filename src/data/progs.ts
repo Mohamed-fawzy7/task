@@ -3608,7 +3608,7 @@ const data = [
                 "length": "3,5",
                 "fee": "8,730",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "Bachelor AUDIO DESIGN",
@@ -3619,7 +3619,7 @@ const data = [
                 "length": "3,5",
                 "fee": "8,730",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "Bachelor CREATIVE INDUSTRIES MANAGEMENT",
@@ -3630,7 +3630,7 @@ const data = [
                 "length": "3,5",
                 "fee": "8,730",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "Bachelor DEVELOPER FOR DIGITAL SERVICES AND PRODUCTS",
@@ -3641,7 +3641,7 @@ const data = [
                 "length": "3,5",
                 "fee": "8,730",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "Bachelor INT. BUSINESS ADMINISTRATION – FAST TRACK",
@@ -3652,7 +3652,7 @@ const data = [
                 "length": "3",
                 "fee": "9,894",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "Bachelor INT. BUSINESS ADMINISTRATION – INT. EXPERIENCE TRACK",
@@ -3663,7 +3663,7 @@ const data = [
                 "length": "3,5",
                 "fee": "8,730",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "Bachelor INT. HOTEL MANAGEMENT",
@@ -3674,7 +3674,7 @@ const data = [
                 "length": "3,5",
                 "fee": "8,730",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "Bachelor MUSIC PRODUCTION",
@@ -3685,7 +3685,7 @@ const data = [
                 "length": "3,5",
                 "fee": "8,730",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "Bachelor PHOTOGRAPHY",
@@ -3696,7 +3696,7 @@ const data = [
                 "length": "3,5",
                 "fee": "8,730",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "Bachelor POPULAR MUSIC",
@@ -3707,7 +3707,7 @@ const data = [
                 "length": "3,5",
                 "fee": "8,730",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "MSc COMPUTER SCIENCE – BIG DATA AND ARTIFICIAL INTELLIGENCE",
@@ -3718,7 +3718,7 @@ const data = [
                 "length": "2",
                 "fee": "12,513",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "MSc COMPUTER SCIENCE – FOCUS ON CYBER SECURITY",
@@ -3729,7 +3729,7 @@ const data = [
                 "length": "2",
                 "fee": "12,513",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "M.A COMPUTING AND THE ARTS",
@@ -3740,7 +3740,7 @@ const data = [
                 "length": "2",
                 "fee": "10,476",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "M.A ENGINEERING AND INT. BUSINESS –\n\nRENEWABLE ENERGY, WATER AND WASTE MANAGEMENT",
@@ -3751,7 +3751,7 @@ const data = [
                 "length": "2",
                 "fee": "12,513",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "M.A ENGINEERING AND SUSTAINABLE TECHNOLOGY MANAGEMENT.\nFOCUS ON CIVIL ENGINEERING:\n\"SMART\" BUILDING INFRASTRUCTURE",
@@ -3762,7 +3762,7 @@ const data = [
                 "length": "2",
                 "fee": "12,513",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "M.A ENGINEERING AND SUSTAINABLE TECHNOLOGY MANAGEMENT.\nFOCUS ON INDUSTRY 4.0.: AUTOMATION, ROBOTICS & 3D\nMANUFACTURING",
@@ -3773,7 +3773,7 @@ const data = [
                 "length": "2",
                 "fee": "12,513",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "M.A ENGINEERING AND SUSTAINABLE TECHNOLOGY MANAGEMENT.\nFOCUS ON MOBILITY AND AUTOMOTIVE INDUSTRY",
@@ -3784,7 +3784,7 @@ const data = [
                 "length": "2",
                 "fee": "12,513",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "M.A ENTREPRENEURSHIP",
@@ -3795,7 +3795,7 @@ const data = [
                 "length": "2",
                 "fee": "12,513",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "M.A FILM, TELEVISION AND DIGITAL NARRATIVES\n(JOINT PROJECT WITH POPULAR ARTS)",
@@ -3806,7 +3806,7 @@ const data = [
                 "length": "2",
                 "fee": "10,476",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "M.A HOSPITALITY MANAGEMENT & LEADERSHIP",
@@ -3817,7 +3817,7 @@ const data = [
                 "length": "2",
                 "fee": "10,476",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "M.A INT. MANAGEMENT – TRIPARTITE WITH PARTNER UNIVERSITIES",
@@ -3828,7 +3828,7 @@ const data = [
                 "length": "2",
                 "fee": "12,513",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "M.A INT. MANAGEMENT –\nFOCUS ON CREATIVE LEADERSHIP",
@@ -3839,7 +3839,7 @@ const data = [
                 "length": "2",
                 "fee": "12,513",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "M.A INT. BUSINESS & LEADERSHIP",
@@ -3850,7 +3850,7 @@ const data = [
                 "length": "2",
                 "fee": "10,476",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "M.A INT. BUSINESS & LEADERSHIP",
@@ -3861,7 +3861,7 @@ const data = [
                 "length": "2",
                 "fee": "12,513",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "M.A INT. ES MANAGEMENT – FOCUS ON CREATIVE MANAGEMENT",
@@ -3872,7 +3872,7 @@ const data = [
                 "length": "2",
                 "fee": "10,476",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "M.A PHOTOGRAPHY",
@@ -3883,7 +3883,7 @@ const data = [
                 "length": "2",
                 "fee": "10,476",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "M.A SOCIAL DESIGN & SUSTAINABLE INNOVATION",
@@ -3894,7 +3894,7 @@ const data = [
                 "length": "2",
                 "fee": "10,476",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "MSc SOFTWARE ENGINEERING",
@@ -3905,7 +3905,7 @@ const data = [
                 "length": "2",
                 "fee": "12,513",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "M.A STRATEGIC DESIGN",
@@ -3916,7 +3916,7 @@ const data = [
                 "length": "2",
                 "fee": "10,476",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "MSc SUPPLY CHAIN MANAGEMENT",
@@ -3927,7 +3927,7 @@ const data = [
                 "length": "2",
                 "fee": "12,513",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "MBA EXECUTIVE GENERAL MANAGEMENT Part-time",
@@ -3938,7 +3938,7 @@ const data = [
                 "length": "2",
                 "fee": "7,566",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "MBA EXECUTIVE GENERAL MANAGEMENT",
@@ -3949,7 +3949,7 @@ const data = [
                 "length": "2",
                 "fee": "14,550",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "MBA GENERAL MANAGEMENT",
@@ -3960,7 +3960,7 @@ const data = [
                 "length": "1,5",
                 "fee": "13,968",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "MBA INT. HEALTHCARE MANAGEMENT",
@@ -3971,7 +3971,7 @@ const data = [
                 "length": "1,5",
                 "fee": "13,968",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "MBA INT. HUMAN RESOURCE MANAGEMENT",
@@ -3982,7 +3982,7 @@ const data = [
                 "length": "1,5",
                 "fee": "13,968",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "MBA MARKETING INTELLIGENCE",
@@ -3993,7 +3993,7 @@ const data = [
                 "length": "1,5",
                 "fee": "13,968",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "MBA SUSTAINABLE INNOVATION AND ENTREPRENEURSHIP",
@@ -4004,7 +4004,7 @@ const data = [
                 "length": "1,5",
                 "fee": "13,968",
                 "intake": "Sept",
-                "school": "SRH : Germany"
+                "school": "SRH Germany"
             },
             {
                 "Name": "Bachelor in Communication Design",

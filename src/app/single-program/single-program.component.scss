@@ -2,27 +2,56 @@
   padding: 24px;
   border-bottom: 1px solid #C5C5C5;
   position: relative;
-  img{
+
+  @media(max-width: 575px){
+    padding: 16px;
+  }
+
+  .image-container{
     height: 80px;
     width: 80px;
     margin-right: 32px;
-    object-fit: cover;
-    object-position: center;
+    box-shadow: 0 0 10px #00000029;;
+    border-radius: 5px;
+    padding: 8px;
+    display: inline-block;
     vertical-align: top;
+
+    @media(max-width: 575px){
+      display: none;
+    }
+    img{
+      object-fit: contain;
+      object-position: center;
+      vertical-align: top;
+      width: 64px;
+      height: 64px;
+    }
   }
   .program-info{
     display: inline-block;
     width: 60%;
+
+    @media(max-width: 575px){
+      display: block;
+      width: auto;
+    }
     .program-name{
       font-size: 18px;
       line-height: 22px;
       font-weight: 500;
+      margin-bottom: 5px;
     }
     .program-school{
       opacity: 0.6;
       font-size: 18px;
       line-height: 22px;
       margin-bottom: 10px;
+    }
+    .program-tut-and-city{
+      @media (max-width: 575px){
+        flex-direction: column;
+      }
     }
     .tut{
       .fee{
@@ -34,6 +63,13 @@
         line-height: 19px;
       }
     }
+    .city{
+      position: absolute;
+      left: 383px;
+      @media(max-width: 575px){
+        position: static;
+      }
+    }
   }
 
 
@@ -43,5 +79,9 @@
     right: 24px;
     bottom: 24px;
     background-color: #1c85c8;
+    @media(max-width: 575px){
+      position: static;
+      margin-top: 20px;
+    }
   }
 }

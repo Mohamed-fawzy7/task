@@ -1,0 +1,25 @@
+a{
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+li{
+  margin-left: 48px;
+}
+.active{
+  color: #1C85C8 !important;
+}
+
+.login{
+  box-shadow: 0px 1px 10px #1C85C833;
+  background: #1C85C8;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 103px;
+  height: 34px;
+  text-align: center;
+  color: #FFF !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -11,6 +11,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FormsModule } from '@angular/forms';
 import { FilterSearchInputComponent } from './filter-search-input/filter-search-input.component';
 import { FilterCheckboxesComponent } from './filter-checkboxes/filter-checkboxes.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { FilterCheckboxesComponent } from './filter-checkboxes/filter-checkboxes
     SingleProgramComponent,
     ProgramsAppComponent,
     FilterSearchInputComponent,
-    FilterCheckboxesComponent
+    FilterCheckboxesComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
